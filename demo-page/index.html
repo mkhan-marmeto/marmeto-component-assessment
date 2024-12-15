@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System Demo</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/button.css" />
+    <link rel="stylesheet" href="../styles/card.css" />
+    <link rel="stylesheet" href="../styles/input.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Design System Demo</h1>
+        <p>Welcome to the Design System Demo page. Here you will find examples of reusable components, their descriptions, and guidelines on how to apply specific classes to achieve desired styles.</p>
+    </header>
+
+    <main>
+        <section>
+            <div class="section-heading">
+                <h2>Button Component</h2>
+                <p>Use the following classes to achieve various button styles:</p>
+            </div>
+            <ul>
+                <li><code>.btn.btn-primary</code>: Primary button styling.</li>
+                <li><code>.btn.btn-secondary</code>: Secondary button styling.</li>
+                <li><code>.btn.btn-disabled</code>: Disabled button styling (requires <code>disabled</code> attribute).</li>
+            </ul>
+            <div>
+                <button class="btn btn-primary" aria-label="Primary Button">Primary Button</button>
+                <button class="btn btn-secondary">Secondary Button</button>
+                <button class="btn btn-disabled" disabled>Disabled Button</button>
+            </div>
+        </section>
+        <section>
+            <div class="section-heading">
+                <h2>Card Component</h2>
+                <p>Use the following structure and classes to create card components:</p>
+            </div>
+            <ul>
+                <li><code>.card</code>: Main container for the card.</li>
+                <li><code>.card-img</code>: Optional image inside the card.</li>
+                <li><code>.card-title</code>: Title text of the card.</li>
+                <li><code>.card-subtitle</code>: Subtitle text of the card.</li>
+                <li><code>.card-body</code>: Main body text of the card.</li>
+            </ul>
+            <div>
+                <div class="card">
+                    <img class="card-image" src="https://via.placeholder.com/150" alt="Sample">
+                    <div class="card-content">
+                        <h3 class="card-title">Card Title</h3>
+                        <p class="card-subtitle">Card Subtitle</p>
+                        <p class="card-body">This is the body text of the card.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section-heading">
+                <h2>Input Component</h2>
+                <p>Use the following structure and classes to create input fields:</p>
+            </div>
+            <ul>
+                <li><code>.input-field</code>: Wrapper for the input field and its related elements.</li>
+                <li><code>.input-default</code>: Default input field styling.</li>
+                <li><code>.input-error</code>: Error message styling (visible only when there's an error).</li>
+            </ul>
+            <div>
+                <div class="input-field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="input-default" />
+                    <p class="input-error">This field is required.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Design System Demo</p>
+    </footer>
+</body>
+
+</html>

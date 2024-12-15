@@ -1,0 +1,42 @@
+.btn {
+    padding: var(--spacing-medium) var(--spacing-large);
+    font-size: var(--font-medium);
+    border: none;
+    border-radius: var(--radius-small);
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: #fff;
+}
+
+.btn-disabled {
+    background-color: var(--color-disabled);
+    color: var(--color-disabled-text);
+    cursor: not-allowed;
+}
+
+.btn-small {
+    font-size: var(--font-small);
+    padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.btn-medium {
+    font-size: var(--font-medium);
+    padding: var(--spacing-medium) var(--spacing-large);
+}
+
+.btn-large {
+    font-size: var(--font-large);
+    padding: var(--spacing-large) calc(var(--spacing-large) * 1.5);
+}
+
+.btn:focus {
+    outline: var(--focus-outline);
+}

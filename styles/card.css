@@ -1,0 +1,36 @@
+.card {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-medium);
+    padding: var(--spacing-large);
+    max-width: 300px;
+    box-shadow: 0 4px 6px var(--color-shadow);
+    background-color: #fff;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: var(--radius-medium) var(--radius-medium) 0 0;
+}
+
+.card-title {
+    font-size: var(--font-large);
+    font-weight: bold;
+    color: var(--color-heading);
+}
+
+.card-subtitle {
+    font-size: var(--font-medium);
+    color: var(--color-subheading);
+}
+
+.card-body {
+    font-size: var(--font-small);
+    color: var(--color-body);
+}
+
+/* Responsive adjustments */
+@media (max-width: var(--breakpoint-md)) {
+    .card {
+        max-width: 100%;
+    }
+}
