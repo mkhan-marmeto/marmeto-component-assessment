@@ -3,6 +3,8 @@
 ## **Overview**
 This document provides guidelines for using the components in the design system. It includes details about the button, card, and input field components, along with their API/props, styling considerations, and usage examples.
 
+Preview link - https://mkhan-marmeto.github.io/marmeto-component-assessment/
+
 ---
 
 ## **Components**
